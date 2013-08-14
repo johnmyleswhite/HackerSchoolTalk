@@ -33,7 +33,7 @@ document.write( '<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
-html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html{font-size:200%;-webkit-text-size-adjust:200%;-ms-text-size-adjust:100%;}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
 a:hover,a:active{outline:0;}
 sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
@@ -49,7 +49,7 @@ label,select,button,input[type="button"],input[type="reset"],input[type="submit"
 input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield;}
 input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
 textarea{overflow:auto;vertical-align:top;}
-@media print{*{text-shadow:none !important;color:#000 !important;background:transparent !important;box-shadow:none !important;} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} abbr[title]:after{content:" (" attr(title) ")";} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} pre,blockquote{border:1px solid #999;page-break-inside:avoid;} thead{display:table-header-group;} tr,img{page-break-inside:avoid;} img{max-width:100% !important;} @page {margin:0.5cm;}p,h2,h3{orphans:3;widows:3;} h2,h3{page-break-after:avoid;}}body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:20px;color:#000000;background-color:#ffffff;}
+@media print{*{text-shadow:none !important;color:#000 !important;background:transparent !important;box-shadow:none !important;} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} abbr[title]:after{content:" (" attr(title) ")";} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} pre,blockquote{border:1px solid #999;page-break-inside:avoid;} thead{display:table-header-group;} tr,img{page-break-inside:avoid;} img{max-width:100% !important;} @page {margin:0.5cm;}p,h2,h3{orphans:3;widows:3;} h2,h3{page-break-after:avoid;}}body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:18px;line-height:20px;color:#000000;background-color:#ffffff;}
 a{color:#0088cc;text-decoration:none;}
 a:hover,a:focus{color:#005580;text-decoration:underline;}
 .img-rounded{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
@@ -216,8 +216,8 @@ a:hover,a:focus{color:#005580;text-decoration:underline;}
 .container-fluid:before,.container-fluid:after{display:table;content:"";line-height:0;}
 .container-fluid:after{clear:both;}
 p{margin:0 0 10px;}
-.lead{margin-bottom:20px;font-size:19.5px;font-weight:200;line-height:30px;}
-small{font-size:85%;}
+.lead{margin-bottom:20px;font-size:30.5px;font-weight:200;line-height:30px;}
+small{font-size:185%;}
 strong{font-weight:bold;}
 em{font-style:italic;}
 cite{font-style:normal;}
@@ -1675,7 +1675,7 @@ h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anch
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 .reveal {
-font-size: 20px;
+font-size: 30.0px;
 overflow-y: auto;
 overflow-x: hidden;
 }
@@ -1892,9 +1892,7 @@ Out[4]:</div>
 
 </div>
 </div>
-</div></section>
-    </section><section>
-    <section>
+</div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
@@ -1948,7 +1946,7 @@ Out[5]:</div>
     </section><section>
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What are summaries of a vector?</p>
+<p>What are popular summaries of a vector?</p>
 <ul>
 <li>Mean</li>
 <li>Median</li>
@@ -3258,7 +3256,7 @@ Out[39]:</div>
     </section><section>
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This rotation forms the principal components of the original data</p>
+<p>This rotation reorients the data to be aligned along the principal components</p>
 </div></section>
     </section><section>
     <section>
